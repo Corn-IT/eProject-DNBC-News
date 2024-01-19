@@ -1,0 +1,79 @@
+h1 {
+    font-size: 250%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px 0;
+    text-align: center;
+}
+
+hr {
+    width: 56%;
+    margin: 0 auto;
+}
+
+#newsDetail {
+    margin-top: 30px;
+}
+
+.card-body{
+width: 70%;
+display: inline-block;
+font-family: sans-serif;
+}
+
+.news-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.news-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 35px;
+}
+
+h2.card-title {
+    margin: 5px 0 10px 0;
+}
+a.btn {
+    text-decoration: none;
+    font-size: 14px;
+    display: inline;
+    margin-top: 10px;
+    float: right;
+    color: #04b2f7;
+}
+a.btn:hover{
+    font-weight: bold;
+    text-decoration: 1.5px underline;
+    color: blue;
+}
+
+a.card-title {
+    display: inline-block;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+a.card-title:hover {
+    color: rgb(115, 98, 98);
+}
+
+h5.text-primary {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.imageLink {
+    width: 70%;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+}
