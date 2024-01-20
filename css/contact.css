@@ -1,0 +1,15 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-right {
+    line-height: 2.5;
+}
