@@ -1,15 +1,77 @@
-.contact-container {
+.title {
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 20px;
+    padding: 0 5px 10px 5px;
+}
+
+.article-contact {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 80%;
 }
 
+h2 {
+    margin-bottom: 15px;
+}
+
+.td-custom {
+    font-size: 17px;
+    line-height: 3.0;
+}
+
+.td-custom1 {
+    line-height: 1.5;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
 .contact-box {
+    background-color: #FFE4C4;
     display: flex;
     justify-content: space-between;
+    margin: 20px 0;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.contact-left {
+    width: 40%;
 }
 
 .contact-right {
-    line-height: 2.5;
+    width: 40%;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #04b2f7;
+}
+
+.link1:hover {
+    font-weight: 700;
+}
+
+.td-custom .fa-envelope {
+    padding-right: 8px;
+}
+
+.td-custom .fa-phone {
+    padding-right: 8px;
+}
+
+.td-custom .fa-globe {
+    padding-right: 8px;
+}
+
+.td-custom1 .fa-location-dot {
+    font-size: 21px;
+    padding-right: 8px;
 }
