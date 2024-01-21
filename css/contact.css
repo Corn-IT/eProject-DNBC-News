@@ -1,4 +1,4 @@
-.title {
+.article-contact .title {
     text-align: center;
     font-size: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -13,32 +13,32 @@
     width: 80%;
 }
 
-h2 {
+.article-contact .contact-box h2 {
     margin-bottom: 15px;
 }
 
-.td-custom {
+.article-contact .contact-box .contact-right .td-custom {
     font-size: 17px;
     line-height: 3.0;
 }
 
-.td-custom1 {
+.article-contact .contact-box .contact-right .td-custom1 {
     line-height: 1.5;
     padding-bottom: 10px;
     font-size: 17px;
 }
 
-.td-custom1 a {
+.article-contact .contact-box .contact-right .td-custom1 a {
     text-decoration: none;
     color: black;
 }
 
-.td-custom1 a:hover {
+.article-contact .contact-box .contact-right .td-custom1 a:hover {
     text-decoration: underline;
     color: #04b2f7;;
 }
 
-.contact-box {
+.article-contact .contact-box {
     background-color: #FFE4C4;
     display: flex;
     justify-content: space-between;
@@ -47,41 +47,101 @@ h2 {
     padding: 10px;
 }
 
-.contact-left {
+.article-contact .contact-box .contact-left {
     width: 40%;
 }
 
-.contact-right {
+.article-contact .contact-box .contact-right {
     width: 40%;
 }
 
-.link {
+.article-contact .contact-box .contact-right .link {
     text-decoration: none;
     color: black;
 }
 
-.link:hover {
+.article-contact .contact-box .contact-right .link:hover {
     text-decoration: underline;
     color: #04b2f7;
 }
 
-.link1:hover {
+.article-contact .contact-box .contact-right .link1:hover {
     font-weight: 700;
 }
 
-.td-custom .fa-envelope {
+.article-contact .contact-box .contact-right .td-custom .fa-envelope {
     padding-right: 8px;
 }
 
-.td-custom .fa-phone {
+.article-contact .contact-box .contact-right .td-custom .fa-phone {
     padding-right: 8px;
 }
 
-.td-custom .fa-globe {
+.article-contact .contact-box .contact-right .td-custom .fa-globe {
     padding-right: 8px;
 }
 
-.td-custom1 .fa-location-dot {
+.article-contact .contact-box .contact-right .td-custom1 .fa-location-dot {
     font-size: 21px;
     padding-right: 8px;
+}
+
+.contact-box .contact-left .textup { 
+	text-align: center; 
+	color: black;
+	font-weight: 700;
+	margin-bottom: 20px;
+} 
+
+.contact-box .contact-left h1 {
+	margin-bottom: 10px;
+}
+
+.contact-box .contact-left i { 
+	margin-right: 3px;
+} 
+
+.contact-box .contact-left .radio-group { 
+	display: flex; 
+	margin: 15px 0 15px 0;
+} 
+
+.contact-box .contact-left input[type="radio"] { 
+    margin-left: 25px;
+	width: 10%;
+} 
+
+.contact-box .contact-left label { 
+	display: block; 
+	margin-bottom: 8px; 
+	font-size: 17px; 
+	color: black;
+	font-weight: 600; 
+} 
+
+.contact-box .contact-left input, textarea { 
+	width: 100%; 
+	padding: 8px; 
+	margin-bottom: 12px; 
+	box-sizing: border-box; 
+	border-radius: 10px; 
+
+} 
+
+.contact-box .contact-left button { 
+	background-color: black;
+	color: white;
+	padding: 10px; 
+	border: none; 
+	border-radius: 25px; 
+	cursor: pointer; 
+	width: 100%; 
+	font-size: 15px; 
+    font-weight: bold;
+	transition: .2s linear; 
+} 
+
+.contact-box .contact-left button:hover { 
+	background-color: #04b2f7;
+	border: none;
 }

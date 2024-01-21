@@ -1,15 +1,15 @@
-.textup { 
+.feedback-box .textup { 
 	text-align: center; 
 	color: black;
 	font-weight: 700;
 	margin-bottom: 20px;
 } 
 
-h1 {
+.feedback-box h1 {
 	margin-bottom: 10px;
 }
 
-i { 
+.feedback-box i { 
 	margin-right: 3px; 
 } 
 
@@ -20,22 +20,22 @@ i {
 	width: 800px; 
 } 
 
-form { 
+.feedback-box form { 
 	max-width: 600px; 
 	margin: 0 auto; 
 } 
 
-.radio-group { 
+.feedback-box .radio-group { 
 	display: flex; 
 	margin: 15px 0 15px 0;
 } 
 
-input[type="radio"] { 
+.feedback-box input[type="radio"] { 
     margin-left: 25px;
 	width: 10%;
 } 
 
-label { 
+.feedback-box label { 
 	display: block; 
 	margin-bottom: 8px; 
 	font-size: 17px; 
@@ -43,7 +43,7 @@ label {
 	font-weight: 600; 
 } 
 
-input, textarea { 
+.feedback-box input, textarea { 
 	width: 100%; 
 	padding: 8px; 
 	margin-bottom: 12px; 
@@ -52,7 +52,7 @@ input, textarea {
 
 } 
 
-button { 
+.feedback-box button { 
 	background-color: black;
 	color: white;
 	padding: 10px; 
@@ -65,7 +65,7 @@ button {
 	transition: .2s linear; 
 } 
 
-button:hover { 
+.feedback-box button:hover { 
 	background-color: #04b2f7;
 	border: none;
 } 

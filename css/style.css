@@ -315,7 +315,7 @@ nav ul li a:hover {
 }
 
 footer {
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 0 15px;
     color: white;
     background-color: rgb(46 43 43);
@@ -327,10 +327,61 @@ footer img {
     margin: 20px 0 10px 0;
 }
 
+footer .top-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+}
+
+footer .top-footer form {
+    display: flex;
+    align-items: center;
+}
+
+footer .top-footer .fa-envelope {
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+footer .top-footer input {
+    font-size: 14px;
+    width: 200px;
+    height: 22px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+footer .top-footer button {
+        background-color: black;
+        color: white;
+        padding: 2px;
+        border: 1px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: bold;
+        transition: .2s linear;
+}
+
+footer .top-footer button:hover { 
+    box-shadow: 0 3px 5px 0 white;
+} 
+
 .main-footer {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+}
+
+.main-footer .left-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-footer .left-footer a:hover {
+    text-decoration: underline;
 }
 
 .right-footer a {

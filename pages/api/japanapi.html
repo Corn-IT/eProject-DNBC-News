@@ -60,21 +60,26 @@
 
         <!-- FOOTER -->
         <footer>
-            <a href="../index.html"><img src="../../images/logo.png" alt=""></a>
+            <div class="top-footer">
+                <a href="../index.html"><img src="../../images/logo.png" alt=""></a>
+                <form action="" id="Subscribe" onsubmit="return subscribeForm()">
+                    <i class="fa fa-solid fa-envelope"></i><input name="email" type="email" placeholder="Enter your mail here..." required/> <button name="submit" id="submit" type="submit">Subscribe</button>
+                </form>
+            </div>
             <div class="main-footer">
                 <div class="left-footer"> 
-                    <p>Agency of FPT Aptech</p>
-                    <p>Editorial Director: Ngo Nguyen Hoang Tuan</p>
-                    <p>License to operate electronic newspapers DNBC: No. 421/HT - FPT Aptech Ho Chi Minh, January 11, 2024</p>
+                    <p>Agency of DNBC News</p>
+                    <p>Editorial Director: Tri Phu Hoang Tuan</p>
+                    <p>License to operate electronic newspapers DNBC: No. 421/HT - <a href="https://wan-ifra.org/about-us/" target="_blank">WAN-IFRA</a>, December 23, 2024</p>
                 </div>
                 <div class="right-footer">
-                    <p>Editorial office: <a href="https://maps.app.goo.gl/GgcDFm5wePxfXXi2A" target="_blank">2nd Floor, 590 Cach Mang Thang Tam, Ward 11, District 3, HCM</a></p>
-                    <p>Hotline: <a href="tel:0931 313 329">0931 313 329</a></p>
-                    <p type="Email">Email: <a href="mailto:aptech.fpt@fe.edu.vn">aptech.fpt@fe.edu.vn</a></p>
+                    <p>Editorial office: <a href="https://maps.app.goo.gl/tfj246eAMAJu1Hsr5" target="_blank">2th Floor, 30 St Mary Axe, London EC3A 8BF, London</a></p>
+                    <p>Hotline: <a href="tel:0931 313 329">020 04092109</a></p>
+                    <p type="Email">Email: <a href="mailto:aptech.fpt@fe.edu.vn">editorialoffice@dnbcnews.com</a></p>
                 </div>
             </div>
             <hr>
-            <p class="copyright">© 2023 Copyright: FPT Aptech</p>
+            <p class="copyright">© 2023 Copyright: DNBC News</p>
         </footer>
     </div>
     <!-- Body end -->
@@ -84,6 +89,16 @@
 
     <!-- Script connect API -->
     <script src="../../js/japan.js"></script>
+
+    <!-- Script show popup when subscribe-->
+    <script>
+        function subscribeForm() {
+            event.preventDefault();
+            alert("Thanks for your subscribe.\nBreaking news and top stories will be brought to you immediately.\n\nBest Regards!\n--------------------\nDNBC News Team");
+            window.location.reload();
+            return false;
+        }
+    </script>
 </body>
 </html>
 
