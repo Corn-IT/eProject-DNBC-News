@@ -92,5 +92,4 @@ function displayNews() {
     });
 }
 
-// Add these lines at the end of your script
 fetchBusinessNews();
