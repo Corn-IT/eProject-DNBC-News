@@ -26,4 +26,6 @@ eProject published at https://corn-it.github.io/eProject-DNBC-News/pages/index.h
 
 ============================
 
+eProject video clip link: https://drive.google.com/drive/folders/1GoBhwW8LZ_x-R9nakmx51sr9baEegpG1?usp=drive_link
+
 Thank you for spending your time to look at our work.
