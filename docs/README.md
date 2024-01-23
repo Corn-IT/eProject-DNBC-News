@@ -18,7 +18,7 @@ Project title: DNBC NEWS
 
 ============================
 
-eProject at https://github.com/Corn-IT/eProject-DNBC-News
+eProject documentation at https://github.com/Corn-IT/eProject-DNBC-News/tree/main/docs
 
 ============================
 
