@@ -1,10 +1,10 @@
-T1.2309.M1 - eProject - Group 5 Batch no.: T1.2309.M1
+T1.2309.M1 - eProject - Group 4 Batch no.: T1.2309.M1
 
 CENTER NAME: APTECH FPT HCM
 
 Project title: DNBC NEWS
 
-========> Group 5 <=========
+========> Group 4 <=========
 
 4 collaborators:
 
